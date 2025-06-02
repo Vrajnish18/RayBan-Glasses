@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Men's Glasses - RayBan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .hero-banner {
+      width: 100%;
+      height: 500px;
+      
+    }
+    .glass-item {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      align-items: center;
+    }
+    .glass-item img {
+      width: 700px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .glass-details {
+      flex: 1;
+    }
+    .glass-details h3 {
+      margin: 0.5rem 0;
+    }
+    .glass-details p {
+      margin: 0.3rem 0;
+    }
+    .glass-details button {
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Ray<span>Ban</span></div>
+  </header>
+
+  <main>
+    <img src="mens.jpg" alt="Men's Glasses Banner" class="hero-banner" />
+
+    <section class="mens-products">
+      <div class="glass-item">
+        <img src="men1.jpg" alt="Classic Aviator" />
+        <div class="glass-details">
+          <h3>Classic Aviator</h3>
+          <p>Size: Medium</p>
+          <p>Color: Black</p>
+          <p>MRP: ₹13,990.00</p>
+          <button onclick="addToCart('Classic Aviator')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="men2.jpg" alt="Retro Square" />
+        <div class="glass-details">
+          <h3>Retro Square</h3>
+          <p>Size: Large</p>
+          <p>Color: Tortoise</p>
+          <p>MRP: ₹10,990.00</p>
+          <button onclick="addToCart('Retro Square')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="men3.jpg" alt="Sport Edge" />
+        <div class="glass-details">
+          <h3>Sport Edge</h3>
+          <p>Size: Medium</p>
+          <p>Color: Grey</p>
+          <p>MRP: ₹14,690.00</p>
+          <button onclick="addToCart('Sport Edge')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="men4.jpg" alt="Bold Wayfarer" />
+        <div class="glass-details">
+          <h3>Bold Wayfarer</h3>
+          <p>Size: Small</p>
+          <p>Color: Blue</p>
+          <p>MRP: ₹13,290.00</p>
+          <button onclick="addToCart('Bold Wayfarer')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="men5.jpg" alt="Metallic Frame" />
+        <div class="glass-details">
+          <h3>Metallic Frame</h3>
+          <p>Size: Large</p>
+          <p>Color: Transperent</p>
+          <p>MRP: ₹8,890.00</p>
+          <button onclick="addToCart('Metallic Frame')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="men6.jpg" alt="Day Vision" />
+        <div class="glass-details">
+          <h3>Day Vision</h3>
+          <p>Size: Medium</p>
+          <p>Color: Brown</p>
+          <p>MRP: ₹10,190.00</p>
+          <button onclick="addToCart('Day Vision')">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RayBan Sunglasses</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <style>
+    .category-banners {
+      display: flex;
+      justify-content: center;
+      gap: 6rem;
+      margin: 3rem 0;
+    }
+    .category {
+      text-align: center;
+    }
+    .category img {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .category img:hover {
+      transform: scale(1.05);
+    }
+    .category p {
+      margin-top: 0.5rem;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .view-all-btn {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+ 
+  <header>
+    <div class="logo">Ray<span>Ban</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#offer">Offers</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="signIn()">Sign In</button>
+      <button onclick="viewCart()">Add to Cart</button>
+    </div>
+  </header>
+
+  
+  <main>
+    <section class="home">
+      <h1>Welcome to RayBan Sunglasses</h1>
+      <img src="home1.jpg" alt="RayBan Glasses" class="hero-image" />
+    </section>
+
+    <section class="products">
+      <h2>Shop the collection </h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="new1.jpg" alt="Men Glass 1" />
+          <h3>Meta Wayfarer Large Matte Black</h3>
+          <p>₹29,900.00</p>
+          <button onclick="addToCart('Classic Aviator')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="new2.jpg" alt="Men Glass 2" />
+          <h3>Meta Skyler Shiny Black</h3>
+          <p>₹29,900.00</p>
+          <button onclick="addToCart('Retro Square')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="new3.jpg" alt="Women Glass 1" />
+          <h3>Meta Wayfarer Matte Black</h3>
+          <p>₹29,000.00</p>
+          <button onclick="addToCart('Feminine Chic')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="new4.jpg" alt="Women Glass 2" />
+          <h3>Meta Skyler Matte Black</h3>
+          <p>₹29,000.00</p>
+          <button onclick="addToCart('Elegant Round')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="new5.jpg" alt="Women Glass 2" />
+          <h3>Acetate Unisex Sunglass</h3>
+          <p>₹11,690.00</p>
+          <button onclick="addToCart('Elegant Round')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="new6.jpg" alt="Women Glass 2" />
+          <h3>Acetate Unisex Sunglass</h3>
+          <p>₹11,690.00</p>
+          <button onclick="addToCart('Elegant Round')">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-banners">
+      <div class="category">
+        <a href="mens.html">
+          <img src="mensbanner2.jpg" alt="Men's Glasses" />
+        </a>
+        <p>Men's Glasses</p>
+      </div>
+      <div class="category">
+        <a href="womens.html">
+          <img src="womensbanner.jpg" alt="Women's Glasses" />
+        </a>
+        <p>Women's Glasses</p>
+      </div>
+    </section>
+
+    <section class="offers" id="offer">
+      <h2>Special Offers</h2>
+      <div class="offer-banner">
+        <a href="mens.html">
+        <img src="offer4.jpg" alt="Offer 1" />
+        </a>
+      </div>
+      <div class="offer-banner">
+        <img src="offer5.jpg" alt="Offer 2" />
+      </div>
+    </section>
+  </main>
+
+ 
+  <footer>
+    <div class="left-footer" id="contact">
+      <h2 class="brand">RAYBAN GLASSES</h2>
+      <p>&copy; 2025 RayBan Inc.</p>
+    </div>
+    <div class="right-footer">
+      <p><a href="mens.html">Men's Glasses</a> | <a href="womens.html">Women's Glasses</a></p>
+      <p>RayBan@gmail.com</p>
+      <p>123-456-7890</p>
+      <p>Keshod-Junagadh-Gujarat</p>
+    </div>
+  </footer>
+</body>
+</html>

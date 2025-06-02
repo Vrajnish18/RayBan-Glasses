@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Women's Glasses - RayBan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .hero-banner {
+      width: 100%;
+      height: 500px;
+      
+    }
+    .glass-item {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      align-items: center;
+    }
+    .glass-item img {
+      width: 700px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .glass-details {
+      flex: 1;
+    }
+    .glass-details h3 {
+      margin: 0.5rem 0;
+    }
+    .glass-details p {
+      margin: 0.3rem 0;
+    }
+    .glass-details button {
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Ray<span>Ban</span></div>
+  </header>
+
+  <main>
+    <img src="womens.jpg" alt="Women's Glasses Banner" class="hero-banner" />
+
+    <section class="womens-products">
+      <div class="glass-item">
+        <img src="womens1.jpg" alt="Zaya" />
+        <div class="glass-details">
+          <h3>Zaya</h3>
+          <p>Size: Medium</p>
+          <p>Color: Pink</p>
+          <p>MRP: ₹9,890.00</p>
+          <button onclick="addToCart('Classic Aviator')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="womens2.jpg" alt="Oval" />
+        <div class="glass-details">
+          <h3>Oval</h3>
+          <p>Size: Medium</p>
+          <p>Color:RoesGold</p>
+          <p>MRP: ₹11,790.00</p>
+          <button onclick="addToCart('Retro Square')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="womens3.jpg" alt="Acetate Unisex Sunglass" />
+        <div class="glass-details">
+          <h3>Acetate Unisex Sunglass</h3>
+          <p>Size: Large</p>
+          <p>Color: Yellow</p>
+          <p>MRP: ₹11,690.00</p>
+          <button onclick="addToCart('Sport Edge')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="womens4.jpg" alt="RB4222" />
+        <div class="glass-details">
+          <h3>RB4222</h3>
+          <p>Size: Small</p>
+          <p>Color: Brown</p>
+          <p>MRP: ₹10,590.00</p>
+          <button onclick="addToCart('Bold Wayfarer')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="womens5.jpg" alt="Hexagonal Optics" />
+        <div class="glass-details">
+          <h3>Hexagonal Optics</h3>
+          <p>Size: Medium</p>
+          <p>Color: Transperent</p>
+          <p>MRP: ₹8,001.00</p>
+          <button onclick="addToCart('Metallic Frame')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="glass-item">
+        <img src="womens6.jpg" alt="ORB3579N" />
+        <div class="glass-details">
+          <h3>ORB3579N</h3>
+          <p>Size: Medium</p>
+          <p>Color: Violet Blue</p>
+          <p>MRP: ₹12,990.00</p>
+          <button onclick="addToCart('Day Vision')">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
